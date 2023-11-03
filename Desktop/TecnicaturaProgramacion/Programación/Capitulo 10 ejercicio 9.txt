@@ -1,0 +1,45 @@
+Proceso sin_titulo
+	Definir frase,letra como cadena;
+	Definir i,contA,contE,contI,contO,contU Como Entero;
+	
+	Escribir sin saltar "Digite una cadena: ";
+	Leer frase;
+	
+	frase <- Minusculas(frase);
+	contA <- 0;
+	contE <- 0;
+	contI <- 0;
+	contO <- 0;
+	contU <- 0;
+	
+	Para i<-0 hasta (Longitud(frase)-1) Hacer
+		letra <- Subcadena(frase,i,i);
+		Si letra = "a" Entonces
+			contA <- contA + 1;
+		SiNo
+			si letra = "e" Entonces
+				contE <- contE + 1;
+			SiNo
+				si letra = "i" Entonces
+					contI <- contI +1;
+				SiNo
+					si letra = "o" Entonces
+						contO <- contO +1;
+					SiNo
+						si letra = "u" Entonces
+							contU <- contU +1;
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinPara
+	
+	Escribir "";
+	Escribir "conteo a: ", contA;
+	Escribir "conteo e: ", contE;
+	Escribir "conteo i: ", contI;
+	Escribir "conteo o: ", contO;
+	Escribir "conteo u: ", contU;
+
+FinProceso

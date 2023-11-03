@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../visual Studio Code/proyectos personales"
+		},
+		{
+			"path": "../../../../../../visual Studio Code/1er proyecto/desarroyo-web"
+		},
+		{
+			"path": "../../../../../../visual Studio Code/HTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScrip"
+	}
+}
