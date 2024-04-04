@@ -10,7 +10,6 @@
 - Castro Luciana
 - Cirica Mateo
 - Guajardo Lucia
-- Houlne Alejo
 - Mercatante Augusto
 - Rodriguez Maricel Romina
 
