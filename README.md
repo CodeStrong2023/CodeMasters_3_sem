@@ -8,9 +8,7 @@
 - Bala Ignacio
 - Carreras Castellano Virginia
 - Castro Luciana
-- Cirica Mateo
 - Guajardo Lucia
-- Mercatante Augusto
 - Rodriguez Maricel Romina
 
 ## Descripción:
