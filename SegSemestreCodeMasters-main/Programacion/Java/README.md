@@ -1,1 +1,0 @@
-Carpeta para subir todas las lecciones de Java
