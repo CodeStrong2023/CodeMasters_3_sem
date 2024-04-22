@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fceeda1-dbe5-4c2d-9f77-2f063fdf89fa" name="Changes" comment="" />
+    <list default="true" id="0fceeda1-dbe5-4c2d-9f77-2f063fdf89fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CodeMasters_3_sem" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeMasters_3_sem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sistema-de-procesamiento-de-datos" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sistema-de-procesamiento-de-datos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TecnicaturaGit3/CodeMasters_3_sem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TecnicaturaGit3/Java3/Lección 1/MundoPc/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TecnicaturaGit3/Java3/Lección 1/MundoPc/nbproject/private/private.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
