@@ -23,3 +23,18 @@ console.log(resultado);
 (function(a,b){
     console.log("Ejecutando la funcion: "+ (a+b));  
 })(3, 1);
+
+console.log(typeof miFuncion);
+function miFuncion2(a, b){
+    // console.log(arguments);
+    console.log(arguments.length);
+}
+
+miFuncion2(1,2,3,4,5);
+
+// ToString
+
+var miFuncion3 = miFuncion2.toString();
+console.log(miFuncion3);
+
+// Funciones flecha
