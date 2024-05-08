@@ -1,0 +1,64 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>40</y><w>752</w><h>472</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>16</y><w>144</w><h>24</h></coordinates><panel_attributes>Mundo_PC</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>56</y><w>240</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Computadora&gt;&gt;
+--
++contador_computadoras: int &lt;&lt;static&gt;&gt;
+-id Computadora: int
+-nombre: String
+-monitor: Monitor
+-teclado: Teclado
+-raton: Raton
+--
++ __str__()
++(agregar los metodos get/set de cada atributo
+--
+Responsibilidades
+--Crear objetos de tipo Computadora</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>72</x><y>312</y><w>168</w><h>152</h></coordinates><panel_attributes>&lt;&lt;Monitor&gt;&gt;
+--
++contadorMonitores: int &lt;&lt;static&gt;&gt;
+-idMonitor: int
+-marca: String
+-tamaño: String
+--
++__str__()
++(Agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+--Crear objetos de tipo Monitor</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>344</x><y>368</y><w>144</w><h>104</h></coordinates><panel_attributes>&lt;&lt;Raton&gt;&gt;
+--
++contadorRatones: int &lt;&lt;static&gt;&gt;
+-idRaton: int
+--
++__str__()
+--
+Responsibilidades
+--Crear objetos de tipo Raton</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>368</x><y>56</y><w>272</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
++contadorOrdenes: int &lt;&lt;static&gt;&gt;
+-idOrden: int
+-computadoras: List &lt;&lt;Computadora&gt;
+--
++agregarComputadora(Computadora)
++__str__()
++(agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+Almacenar en una lista los objetos de tipo computadora</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>368</y><w>144</w><h>104</h></coordinates><panel_attributes>&lt;&lt;Teclado&gt;&gt;
+--
++contadorTeclados: int &lt;&lt;static&gt;&gt;
+-idTeclado: int
+--
++__str__()
+--
+Responsibilidades
+--Crear objetos de tipo Teclado</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>352</x><y>208</y><w>312</w><h>112</h></coordinates><panel_attributes>&lt;&lt;DispositivoEntrada&gt;&gt;
+--
+#tipoEntrada: String
+#marca: String
+--
++__str__()
++(agregar los metodos get/set de cada atributo)
+--
+Responsibilidades
+Almacenar en una lista los objetos de tipo DispositivoEntrada</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>152</x><y>208</y><w>24</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>272</x><y>104</y><w>112</w><h>32</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;agregar&gt;&gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>256</y><w>24</w><h>256</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;300</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>488</y><w>328</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>390;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>592</x><y>464</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>408</x><y>464</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>152</x><y>248</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
+&lt;&lt;agregar&gt;&gt;
+</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>336</y><w>224</w><h>24</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>260;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>336</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>336</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>312</y><w>24</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element></diagram>
