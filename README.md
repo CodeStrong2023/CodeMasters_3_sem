@@ -1,6 +1,12 @@
-# TercerSemestreCodeMasters
+# ¡Bienvenidos a CODEMASTERS!
 
-¡Bienvenidos al repositorio del tercer semestre del grupo CodeMasters de la cohorte 2023 de la UTN FRSR!
+
+<img src="https://tse1.mm.bing.net/th/id/OIG3.HcKbRAgu81Oi7.50KOws?pid=ImgGn"  width="800" height="600">
+
+
+
+
+# Repositorio del tercer semestre del grupo CodeMasters de la cohorte 2023 de la UTN FRSR!
 
 ## Integrantes del Grupo:
 
