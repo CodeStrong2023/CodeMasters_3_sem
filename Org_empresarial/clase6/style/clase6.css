@@ -1,0 +1,110 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Variables de color */
+:root {
+  --primary-color: #ff5e57;
+  --secondary-color: #ffc042;
+  --background-color: #f7f7f7;
+  --text-color: #333;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+/* Secciones */
+section {
+  padding: 40px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Tarjetas */
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  nav li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
