@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>50</y><w>780</w><h>470</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>20</y><w>160</w><h>30</h></coordinates><panel_attributes>Catalogo_peliculas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>100</y><w>320</w><h>190</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>70</y><w>100</w><h>30</h></coordinates><panel_attributes>dominio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>100</y><w>320</w><h>190</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>310</y><w>270</w><h>190</h></coordinates><panel_attributes>test_catalogo_peliculas.py
+--
+Responsabilidades:
+-- Contiene un menú con 4 opciones:
+   1) Agregar peliculas
+   2) Listar peliculas
+   3) Eliminar archivo de peliculas
+   4) Salir</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>70</y><w>100</w><h>30</h></coordinates><panel_attributes>servicio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>110</y><w>260</w><h>160</h></coordinates><panel_attributes>Pelicula
+--
+- nombre: str
+--
++ __str__()
+--
+Responsabilidades:
+-- Respresenta un objeto pelicula</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>110</y><w>300</w><h>170</h></coordinates><panel_attributes>CatalogoPeliculas
+--
++ ruta_archivo: str  &lt;&lt;static&gt;&gt;
+--
++ agregar_pelicula(Pelicula) &lt;&lt;static&gt;&gt;
++ listar_peliculas() &lt;&lt;static&gt;&gt;
++ eliminar() &lt;&lt;static&gt;&gt;
+--
+Responsabilidades:
+-- Realizar las operaciones sobre 
+el archivo de peliculas.txt</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>170</y><w>150</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+&lt;&lt;agrega&gt;&gt;</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element></diagram>
