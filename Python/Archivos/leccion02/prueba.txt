@@ -1,0 +1,13 @@
+peogramamos con diferentes tipos de archivos, ahora en txt. 
+los acentos son importantes para las palabtas. 
+como por ejemplo: acción, ejecución y producción.
+las letras son: 
+r de read leer, 
+a append anexa, 
+w write escribe, 
+x crea archivos
+t esta es para textos o text, 
+b archivos binarios, 
+w+ lee y escribe son iguales r+
+Saludos a todos los alumnos de la tecnicatura
+con esto terminamos
