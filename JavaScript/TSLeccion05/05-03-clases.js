@@ -28,6 +28,7 @@ class Persona {
         //el méthodo que se ejecuta depende si es una referencia de tipo padre o hija 
         return this.nombreCompleto();
     }
+
 }
 
 class Empleado extends Persona{
@@ -68,3 +69,5 @@ console.log(empleado1.nombreCompleto())
 //Object.prototype.toString esta es la manera de accceder a a tributos y métodos de manera dinamica
 console.log(empleado1.toString())
 console.log(persona1.toString())
+console.log(empleado1.nombre)
+
