@@ -9,15 +9,19 @@ class Persona {
     get nombre() {
         return this._nombre;
     }
+
     get apellido() {
         return this._apellido;
     }
+
     set nombre(nombre) {
         this._nombre = nombre;
     }
+
     set apellido(apellido) {
         this._apellido = apellido;
     }
+
     // clase 7 parte2
     nombreCompleto(){
         return this._nombre+' '+this._apellido;
@@ -27,6 +31,14 @@ class Persona {
         //se aplica el polimorfismos que significa = multiples formas en tiempo de ejecucion
         //el méthodo que se ejecuta depende si es una referencia de tipo padre o hija 
         return this.nombreCompleto();
+    }
+
+    static saludar(){
+        console.log('Saludos desde este método static');
+    }
+    
+    static saludar2(persona){
+        console.log(persona.nombre+' '+persona.apellido);
     }
 
 }
@@ -71,3 +83,9 @@ console.log(empleado1.toString())
 console.log(persona1.toString())
 console.log(empleado1.nombre)
 
+// persona1.saludar(); no se utiliza desde el objeto
+Persona.saludar();
+Persona.saludar2(persona1);
+
+Empleado.saludar();
+Empleado.saludar2(empleado1);
