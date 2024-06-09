@@ -1,22 +1,19 @@
 
 package domain;
 
-/**
- * @author Virginia
- */
-public class Persona {
-    private String nombre;    
+import java.io.Serializable;
+
+public class Persona implements Serializable{
+    private String nombre;
     private String apellido;
-    public String getNombre;
-    public String getApellido;
     
-    //constructor vacio: esto es ibligatorio
-    public  Persona(){
-    
+    //constructor vacio: esto es obligatorio
+    public Persona(){
+        
     }
-    public  Persona(String nombre, String apellido){
-        this.nombre= nombre;
-        this.apellido= apellido;
+    public Persona(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     public String getNombre() {
@@ -37,11 +34,8 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "persona{" + "nombre=" + nombre + ", apellido=" + apellido + '}';
+        return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + '}';
     }
-
-    public void serApellido(String perez) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
     
 }
