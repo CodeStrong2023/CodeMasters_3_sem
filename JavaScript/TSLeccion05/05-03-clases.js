@@ -9,15 +9,38 @@ class Persona {
     get nombre() {
         return this._nombre;
     }
+
     get apellido() {
         return this._apellido;
     }
+
     set nombre(nombre) {
         this._nombre = nombre;
     }
+
     set apellido(apellido) {
         this._apellido = apellido;
     }
+
+    // clase 7 parte2
+    nombreCompleto(){
+        return this._nombre+' '+this._apellido;
+    }
+    //sobreescribiendo el método de la clase padre
+    toString(){ //regresa un string
+        //se aplica el polimorfismos que significa = multiples formas en tiempo de ejecucion
+        //el méthodo que se ejecuta depende si es una referencia de tipo padre o hija 
+        return this.nombreCompleto();
+    }
+
+    static saludar(){
+        console.log('Saludos desde este método static');
+    }
+    
+    static saludar2(persona){
+        console.log(persona.nombre+' '+persona.apellido);
+    }
+
 }
 
 class Empleado extends Persona{
@@ -31,6 +54,11 @@ class Empleado extends Persona{
     set departamento(departamento){
         this._departamento = departamento;
     }
+    //sobreescritucara clase 7 parte 2
+    nombreCompleto(){
+        return super.nombreCompleto()+' '+this._departamento
+    }
+
 }
 
 let persona1 = new Persona('Julieta', 'Aguilera');
@@ -48,4 +76,16 @@ console.log(persona2.apellido);
 
 let empleado1 = new Empleado('Maria', 'Gimenez', 'Sistemas');
 console.log(empleado1);
+console.log(empleado1.nombreCompleto())
+
+//Object.prototype.toString esta es la manera de accceder a a tributos y métodos de manera dinamica
+console.log(empleado1.toString())
+console.log(persona1.toString())
 console.log(empleado1.nombre)
+
+// persona1.saludar(); no se utiliza desde el objeto
+Persona.saludar();
+Persona.saludar2(persona1);
+
+Empleado.saludar();
+Empleado.saludar2(empleado1);
