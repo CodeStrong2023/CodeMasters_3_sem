@@ -19,3 +19,6 @@ Requisitos y Funcionalidades:
 
         Generación de Informes: Proporcionar a los administradores informes y análisis sobre el rendimiento del hotel, ocupación de habitaciones, ingresos, etc.
         
+      
+
+     
