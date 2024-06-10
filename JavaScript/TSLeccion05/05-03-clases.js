@@ -1,9 +1,27 @@
 //let persona3 = new Persona('Carla', 'Ponce'); esto no se debe hacer: persona in not defined
 
 class Persona {
+
+    static contadorPersonas = 0; //Atributo stático
+    //emial = 'Valo default email'; //Atributo no estático
+
+    static get MAX_OBJ(){
+        return 5;
+    }
+
+
     constructor(nombre, apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
+        if(Persona.contadorPersonas<Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersonas;
+        }
+        else{
+            console.log('Se ha superado el max de obj permitidos')
+        }
+        Persona.contadorObjetosPersona++;
+      
+       // console.log('Se inscrementa el contador:'+Persona.contadorObjetosPersona)
     }
 
     get nombre() {
@@ -24,7 +42,7 @@ class Persona {
 
     // clase 7 parte2
     nombreCompleto(){
-        return this._nombre+' '+this._apellido;
+        return this.idPersona+''+ this._nombre+' '+this._apellido;
     }
     //sobreescribiendo el método de la clase padre
     toString(){ //regresa un string
@@ -89,3 +107,28 @@ Persona.saludar2(persona1);
 
 Empleado.saludar();
 Empleado.saludar2(empleado1);
+
+//console.log(person1.contadorObjetosPersona);
+console.log(Persona.contadorObjetosPersona);
+console.log(Empleado.contadorObjetosPersona)
+
+
+console.log(persona1.emial);
+console.log(empleado1.emial);
+
+console.log(persona1.toString());
+console.log(persona2.toString());
+console.log(empleado1.toString());
+console.log(Persona.contadorPersonas);
+let persona3 = new Persona('Crala', 'Lara');
+console.log(persona3.toString())
+console.log(Persona.contadorPersonas);
+
+console.log(Persona.MAX_OBJ)
+//Persona.MAX_OBJ = 10 No ser puede modoficart ni alterar
+
+let persona4 = new Persona('Franco', 'Díaz');
+console.log(persona4.toString());
+
+let persona5 = new Persona('LILIANA', 'PAZ')
+console.log(persona5.toString())
