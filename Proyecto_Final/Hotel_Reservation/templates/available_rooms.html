@@ -1,0 +1,153 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Myrel Hotel Reservation - Available Rooms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
+  <link rel="stylesheet" href="{% static 'css/jquery.timepicker.css' %}">
+  <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+  <link rel="stylesheet" href="{% static 'fonts/ionicons/css/ionicons.min.css' %}">
+  <link rel="stylesheet" href="{% static 'fonts/fontawesome/css/font-awesome.min.css' %}">
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 site-logo" data-aos="fade"><a href="index.html"><em>Myrel Hotel Reservation</em></a></div>
+        <div class="col-8">
+          <div class="site-menu-toggle js-site-menu-toggle" data-aos="fade">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="site-navbar js-site-navbar">
+            <nav role="navigation">
+              <div class="container">
+                <div class="row full-height align-items-center">
+                  <div class="col-md-6 mx-auto text-center">
+                    <ul class="list-unstyled menu">
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/reservation">Reservation Form</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="site-hero overlay" style="background-image: url({% static 'img/bg.jpg' %})"
+    data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row site-hero-inner justify-content-center align-items-center">
+        <div class="col-md-10 text-center" data-aos="fade-up">
+          <h1 class="heading">Available Rooms</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="block-32">
+          <div class="row">
+
+            {% for room in available_rooms %}
+            <div class="col-md-6 mb-4 col-lg-4" data-aos="fade-up">
+              <div class="unit-4">
+                <div class="unit-4-image">
+                  <img src="{{ room.image.url }}" alt="{{ room.nom }}" class="img-fluid">
+                </div>
+                <div class="unit-4-content">
+                  <h3 class="unit-4-title">{{ room.nom }}</h3>
+                  <p class="text-muted mb-3">₱{{ room.prix }} / per night</p>
+                  <p>{{ room.description }}</p>
+                  <p><a href="/reservation" class="btn btn-success btn-sm">Book Now</a></p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="section footer-section bg-success">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-3 mb-5">
+          <ul class="list-unstyled link">
+            <li><a href="rooms/allRooms">Rooms</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/Blog">Events</a></li>
+            <li><a href="/Contact">Contact</a></li>
+            <li><a href="/Reservation">Reservation Form</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <ul class="list-unstyled link">
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5 pr-md-5 contact-info">
+          <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span>
+            <span>UTN Facultad Regional San Rafael</span></p>
+          <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span>
+            <span>09123456789</span></p>
+          <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span>
+              CodeMasters@gmail.com</span></p>
+        </div>
+        <div class="col-md-3 mb-5">
+          <p>Sign up for our newsletter</p>
+          <form action="#" class="footer-newsletter">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your email...">
+              <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row bordertop pt-5">
+        <p class="col-md-6 text-center">
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Hotel Reservation System
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+  <script src="{% static 'js/jquery.timepicker.min.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
