@@ -1,0 +1,93 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "qué tal",
+                "cómo estas?",
+                "buen día",
+                "buenas tardes"
+            ],
+            "responses": ["Hola! Bienvenido a Mendoza. ¿Qué te gustaría conocer sobre la ciudad? \n1. Lugares turísticos \n2. Alojamientos \n3. Actividades \n4. Gastronomía \n5. Transporte \n6. Otro"]
+
+            },
+            {
+                "tag": "lugares_turisticos",
+                "patterns": [
+                    "1",
+                    "lugares turísticos",
+                    "sitios para visitar"
+                ],
+                "responses": [
+                    "En Mendoza puedes visitar el Cerro de la Gloria, el Parque General San Martín, el Museo del Vino, entre otros lugares emblemáticos",
+                    "Los lugares más visitados en Mendoza son el Cerro Aconcagua, el Valle de Uco y el centro histórico"
+                ]
+            },
+            {
+                "tag": "alojamientos",
+                "patterns": [
+                    "2",
+                    "dónde hospedarme",
+                    "hoteles",
+                    "alojamiento"
+                ],
+                "responses": [
+                    "En Mendoza hay una variedad de opciones de alojamiento, desde hoteles de lujo hasta hostels y departamentos",
+                    "Puedes encontrar hoteles, hostels, departamentos y casas de campo para rentar",
+                    "Algunos de los mejores hoteles en Mendoza son el Park Hyatt Mendoza, el Sheraton Mendoza Hotel y el InterContinental Mendoza"
+                ]
+            },
+            {
+                "tag": "actividades",
+                "patterns": [
+                    "3",
+                    "qué hacer",
+                    "actividades"
+                ],
+                "responses": [
+                    "En Mendoza puedes disfrutar de actividades al aire libre como senderismo, rafting y kayak",
+                    "Las actividades más populares en Mendoza son el trekking, el ciclismo y el horseback riding",
+                    "Puedes practicar deportes extremos como parapente, canopy y rappel en lugares como el Valle de Uco y el Cerro Aconcagua"
+                ]
+            },
+            {
+                "tag": "gastronomia",
+                "patterns": [
+                    "4",
+                    "qué comer",
+                    "platos típicos",
+                    "vino"
+                ],
+                "responses": [
+                    "En Mendoza puedes disfrutar de la gastronomía argentina, con platos típicos como asado, empanadas y choripán",
+                    "Los platos típicos de la región son el locro, la humita y el chupe de mariscos",
+                    "Mendoza es famosa por su vino, puedes visitar bodegas como Catena Zapata, Zuccardi y Ruca Malen"
+                ]
+            },
+            {
+                "tag": "transporte",
+                "patterns": [
+                    "5",
+                    "cómo moverme",
+                    "transporte"
+                ],
+                "responses": [
+                    "Puedes moverte por la ciudad en taxi, autobús o bicicleta",
+                    "Las opciones de transporte en Mendoza son taxis, autobuses, remises y alquiler de autos",
+                    "Puedes alquilar un auto en empresas como Hertz, Europcar y Avis"
+                ]
+            },
+            {
+                "tag": "otro",
+                "patterns": [
+                    "6",
+                    "otro",
+                    "más información"
+                ],
+                "responses": [
+                    "¿Sobre qué tema específico necesitas más información?"
+                ]
+            }
+        ]
+    }
