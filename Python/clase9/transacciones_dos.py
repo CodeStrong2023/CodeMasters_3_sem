@@ -22,3 +22,4 @@ except Exception as e:
     print(f'Ocurrió un error, se hizo un rollback: {e}')
 finally:
     conexion.close()
+    

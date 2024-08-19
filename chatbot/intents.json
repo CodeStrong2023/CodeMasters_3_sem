@@ -1,0 +1,158 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "qué tal",
+                "cómo estas?",
+                "buen día",
+                "buenas tardes"
+            ],
+            "responses": ["Hola! Bienvenido a Mendoza. Por favor, elige un número según lo que quieras conocer sobre la ciudad:\n1. Lugares turísticos\n2. Alojamientos\n3. Actividades\n4. Gastronomía\n5. Transporte\n6. Otro"]
+        },
+        {
+            "tag": "lugares_turisticos",
+            "patterns": [
+                "1",
+                "lugares turísticos",
+                "sitios para visitar"
+            ],
+            "responses": [
+                "Mendoza ofrece una gran variedad de lugares turísticos para visitar. Algunos de los más destacados son:\n\n1. Cerro de la Gloria: Un hermoso mirador con una vista panorámica de la ciudad y la cordillera de los Andes.\n\n2. Parque General San Martín: Un enorme parque urbano con lagos, jardines y monumentos.\n\n3. Museo del Vino: Conoce la historia vitivinícola de la región en este interesante museo.\n\n4. Cerro Aconcagua: La montaña más alta de América, ideal para senderismo y alpinismo.\n\n5. Valle de Uco: Una región vinícola famosa por sus bodegas y paisajes impresionantes.\n\n6. Centro histórico: Explora la Plaza Independencia y los edificios históricos que la rodean.\n\nCada uno de estos lugares ofrece una experiencia única y te permitirá conocer la rica cultura e historia de Mendoza."
+            ]
+        },
+        {
+            "tag": "alojamientos",
+            "patterns": [
+                "2",
+                "dónde hospedarme",
+                "hoteles",
+                "alojamiento"
+            ],
+            "responses": [
+                "Mendoza ofrece una amplia gama de opciones de alojamiento para todos los gustos y presupuestos:\n\n1. Hoteles de lujo: El Park Hyatt Mendoza, el Sheraton Mendoza Hotel y el InterContinental Mendoza ofrecen servicios de primera clase.\n\n2. Hoteles boutique: Perfectos para quienes buscan una experiencia más íntima y personalizada.\n\n3. Hostels: Ideales para viajeros con presupuesto limitado y que desean socializar.\n\n4. Apartamentos: Excelentes para estancias más largas o para quienes prefieren más independencia.\n\n5. Casas de campo: Perfectas para sumergirse en la atmósfera rural de Mendoza.\n\n6. Posadas en bodegas: Una experiencia única para los amantes del vino.\n\nRecuerda reservar con anticipación, especialmente durante la temporada alta o eventos importantes."
+            ]
+        },
+        {
+            "tag": "actividades",
+            "patterns": [
+                "3",
+                "qué hacer",
+                "actividades"
+            ],
+            "responses": [
+                "Mendoza ofrece una gran variedad de actividades para todos los gustos:\n\n1. Enoturismo: Visita bodegas famosas y degusta vinos de clase mundial.\n\n2. Senderismo: Explora los impresionantes paisajes de los Andes, incluyendo el Cerro Aconcagua.\n\n3. Rafting y kayak: Disfruta de la emoción de los rápidos en ríos como el Mendoza o el Atuel.\n\n4. Ciclismo: Recorre los viñedos y paisajes en bicicleta.\n\n5. Cabalgatas: Explora la región como los gauchos, a caballo.\n\n6. Deportes de invierno: Esquí y snowboard en centros como Las Leñas.\n\n7. Parapente: Vuela sobre los impresionantes paisajes de Mendoza.\n\n8. Termas: Relájate en los baños termales naturales de la región.\n\n9. Canopy y rappel: Para los amantes de la adrenalina.\n\nCada actividad te permitirá experimentar Mendoza de una manera única y emocionante."
+            ]
+        },
+        {
+            "tag": "gastronomia",
+            "patterns": [
+                "4",
+                "qué comer",
+                "platos típicos",
+                "vino"
+            ],
+            "responses": [
+                "La gastronomía de Mendoza es rica y variada, influenciada por la cocina argentina y la cultura del vino:\n\n1. Asado: El clásico argentino, carnes a la parrilla de alta calidad.\n\n2. Empanadas mendocinas: Rellenas de carne, aceitunas y huevo duro.\n\n3. Locro: Un guiso tradicional de maíz, carne y verduras.\n\n4. Humita: Pasta de maíz y queso envuelta en hojas de choclo.\n\n5. Chupe de mariscos: Una sopa cremosa de mariscos.\n\n6. Choripán: Sandwich de chorizo, popular en asados y puestos callejeros.\n\n7. Vinos: Mendoza es famosa por sus Malbecs, pero también produce excelentes Cabernet Sauvignon, Chardonnay y más.\n\n8. Dulce de membrillo: Un postre tradicional.\n\nNo te pierdas la oportunidad de visitar bodegas como Catena Zapata, Zuccardi y Ruca Malen para degustar vinos y aprender sobre el proceso de elaboración."
+            ]
+        },
+        {
+            "tag": "transporte",
+            "patterns": [
+                "5",
+                "cómo moverme",
+                "transporte"
+            ],
+            "responses": [
+                "Mendoza ofrece varias opciones de transporte para moverte por la ciudad y sus alrededores:\n\n1. Autobuses urbanos: Una red extensa que cubre toda la ciudad. Necesitarás una tarjeta recargable para usarlos.\n\n2. Taxis y remises: Disponibles en toda la ciudad. Los remises son servicios de taxi precontratados.\n\n3. Alquiler de autos: Empresas como Hertz, Europcar y Avis ofrecen servicios de alquiler. Es una buena opción para explorar la región vinícola.\n\n4. Bicicletas: Mendoza tiene una red de ciclovías. Hay servicios de alquiler de bicicletas disponibles.\n\n5. Metrotranvía: Un sistema de tranvía que conecta el centro con algunas áreas suburbanas.\n\n6. Servicios de transporte turístico: Para excursiones a bodegas o sitios turísticos fuera de la ciudad.\n\n7. A pie: El centro de Mendoza es bastante compacto y agradable para caminar.\n\nRecuerda que para visitar áreas más remotas o bodegas, es recomendable alquilar un auto o contratar un tour organizado."
+            ]
+        },
+        {
+            "tag": "otro",
+            "patterns": [
+                "6",
+                "otro",
+                "más información"
+            ],
+            "responses": [
+                "Entiendo que necesitas más información. ¿Podrías especificar sobre qué tema en particular te gustaría saber más? Puedo proporcionarte detalles sobre:\n\n1. Historia de Mendoza\n2. Clima y mejor época para visitar\n3. Festivales y eventos\n4. Compras y artesanías\n5. Seguridad y consejos para viajeros\n6. Excursiones de un día\n\nPor favor, indica el titulo de lo que deses saber."
+            ]
+        },
+        {
+            "tag": "historia_mendoza",
+            "patterns": [
+                "historia de Mendoza",
+                "orígenes de Mendoza",
+                "historia"
+            ],
+            "responses": [
+                "La historia de Mendoza es rica y fascinante:\n\n- Fundación: Mendoza fue fundada el 2 de marzo de 1561 por Pedro del Castillo.\n\n- Pueblos originarios: La región estaba habitada por los Huarpes antes de la llegada de los españoles.\n\n- Terremoto de 1861: Un devastador terremoto destruyó gran parte de la ciudad, que fue reconstruida con amplias avenidas y espacios verdes.\n\n- Industria vitivinícola: Inició a finales del siglo XIX y se convirtió en un pilar económico de la región.\n\n- Siglo XX: Mendoza se desarrolló como un importante centro turístico y cultural.\n\n- Actualidad: Es conocida mundialmente por sus vinos y belleza natural."
+            ]
+        },
+        {
+            "tag": "clima_mendoza",
+            "patterns": [
+            
+                "clima de Mendoza",
+                "mejor época para visitar",
+                "clima"
+            ],
+            "responses": [
+                "El clima de Mendoza y la mejor época para visitar:\n\n- Clima: Semiárido, con veranos calurosos e inviernos fríos y secos.\n\n- Temperatura: Promedio de 32°C en verano y 3°C en invierno.\n\n- Precipitaciones: Escasas, principalmente en verano.\n\n- Mejor época para visitar:\n  * Primavera (septiembre-noviembre): Clima agradable, ideal para actividades al aire libre.\n  * Otoño (marzo-mayo): Perfecto para enoturismo, con la vendimia en marzo.\n  * Invierno (junio-agosto): Ideal para deportes de nieve en las montañas cercanas.\n\n- Evitar: El verano puede ser muy caluroso, especialmente en enero y febrero."
+            ]
+        },
+        {
+            "tag": "festivales_eventos",
+            "patterns": [
+               
+                "festivales y eventos",
+                "celebraciones en Mendoza",
+                "festivales",
+                "eventos",
+                "celebraciones"
+            ],
+            "responses": [
+                "Mendoza ofrece diversos festivales y eventos a lo largo del año:\n\n1. Fiesta Nacional de la Vendimia (febrero-marzo): El evento más importante, celebrando la cosecha de uva.\n\n2. Festival de Música Clásica por los Caminos del Vino (febrero-marzo): Conciertos en bodegas y sitios históricos.\n\n3. Rally Dakar (enero): Parte de la ruta pasa por Mendoza.\n\n4. Feria Internacional del Turismo (octubre): Importante evento turístico.\n\n5. Festival del Cine (noviembre): Muestra de cine nacional e internacional.\n\n6. Fiestas departamentales de la Vendimia (diciembre-febrero): Celebraciones en diferentes zonas de Mendoza.\n\n7. Mendoza Filma (abril): Festival de cine independiente."
+            ]
+        },
+        {
+            "tag": "compras_artesanias",
+            "patterns": [
+                
+                "compras y artesanías",
+                "souvenirs de Mendoza",
+                "compras",
+                "artesanías"
+            ],
+            "responses": [
+                "Compras y artesanías en Mendoza:\n\n1. Vinos y productos relacionados: Botellas de vino, sacacorchos, copas.\n\n2. Artesanías en cuero: Cinturones, carteras, billeteras.\n\n3. Tejidos: Ponchos, mantas, bufandas de lana de alpaca o llama.\n\n4. Dulces regionales: Alfajores, dulce de membrillo, dulce de leche.\n\n5. Mate y bombillas: Set tradicional para beber mate.\n\n6. Productos de oliva: Aceites, aceitunas, cosméticos.\n\n7. Joyería y platería: Piezas con diseños inspirados en la cultura local.\n\nLugares para comprar:\n- Mercado Artesanal Mendocino\n- Peatonal Sarmiento\n- Feria de Artesanos de la Plaza Independencia\n- Tiendas de las bodegas"
+            ]
+        },
+        {
+            "tag": "seguridad_consejos",
+            "patterns": [
+                
+                "seguridad y consejos",
+                "tips para viajeros",
+                "seguridad",
+                "consejos"
+            ],
+            "responses": [
+                "Consejos de seguridad y para viajeros en Mendoza:\n\n1. Seguridad: Mendoza es generalmente segura, pero toma precauciones normales.\n\n2. Transporte: Usa taxis oficiales o remises, especialmente de noche.\n\n3. Dinero: Lleva efectivo para pequeños comercios, pero usa tarjetas en establecimientos más grandes.\n\n4. Altitud: Si visitas zonas de montaña, aclimatate gradualmente para evitar el mal de altura.\n\n5. Sol: Usa protector solar y sombrero, el sol puede ser intenso.\n\n6. Agua: Bebe agua embotellada en zonas rurales.\n\n7. Respeta la naturaleza: Si haces senderismo, no dejes basura y sigue los senderos marcados.\n\n8. Vino: Disfruta con moderación y no conduzcas si has bebido.\n\n9. Idioma: Aprende algunas frases básicas en español.\n\n10. Propinas: Son comunes, generalmente el 10% en restaurantes."
+            ]
+        },
+        {
+            "tag": "excursiones_dia",
+            "patterns": [
+                
+                "excursiones de un día",
+                "day trips desde Mendoza",
+                "excursiones"
+            ],
+            "responses": [
+                "Excursiones de un día desde Mendoza:\n\n1. Ruta del Vino en Valle de Uco: Visita a bodegas y degustaciones.\n\n2. Alta Montaña: Recorrido por la Cordillera de los Andes, incluyendo el Puente del Inca y la vista del Aconcagua.\n\n3. Termas de Cacheuta: Relájate en aguas termales naturales.\n\n4. Villavicencio: Visita la reserva natural y la histórica planta embotelladora de agua.\n\n5. Potrerillos: Ideal para actividades al aire libre como kayak, trekking o mountain bike.\n\n6. Luján de Cuyo: Tour por las bodegas más tradicionales de Mendoza.\n\n7. Parque Provincial Aconcagua: Trekking de un día para ver el pico más alto de América.\n\n8. San Rafael: Visita el Cañón del Atuel y realiza actividades de aventura.\n\nRecuerda reservar con anticipación, especialmente en temporada alta."
+            ]
+        }
+    ]
+}
