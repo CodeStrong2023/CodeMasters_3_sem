@@ -1,0 +1,65 @@
+07:29:25 AM:DEBUG [logger_base.py:15] Mensaje a nivel debug
+07:29:25 AM:INFO [logger_base.py:16] Mensaje a nivel info
+07:29:25 AM:WARNING [logger_base.py:17] Mensaje a nivel warning
+07:29:25 AM:ERROR [logger_base.py:18] Mensaje a nivel error
+07:29:25 AM:CRITICAL [logger_base.py:19] Mensaje a nivel critical
+2024-08-20 07:30:15:DEBUG:
+            Id Persona: 1;
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+2024-08-20 07:30:15:DEBUG:
+            Id Persona: 2;
+            Nombre: Jose,
+            Apellido: Lopez,
+            Email: ljose@gmail.com
+        
+08:02:00 AM:DEBUG [logger_base.py:15] Mensaje a nivel debug
+08:02:00 AM:INFO [logger_base.py:16] Mensaje a nivel info
+08:02:00 AM:WARNING [logger_base.py:17] Mensaje a nivel warning
+08:02:00 AM:ERROR [logger_base.py:18] Mensaje a nivel error
+08:02:00 AM:CRITICAL [logger_base.py:19] Mensaje a nivel critical
+2024-08-20 08:04:49:DEBUG:Conexion Exitosa: <connection object at 0x000002C5CAFED690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:05:02 AM:DEBUG [logger_base.py:15] Mensaje a nivel debug
+08:05:02 AM:INFO [logger_base.py:16] Mensaje a nivel info
+08:05:02 AM:WARNING [logger_base.py:17] Mensaje a nivel warning
+08:05:02 AM:ERROR [logger_base.py:18] Mensaje a nivel error
+08:05:02 AM:CRITICAL [logger_base.py:19] Mensaje a nivel critical
+2024-08-20 08:05:22:DEBUG:Conexion Exitosa: <connection object at 0x0000016D267FD690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:06:56:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:06:56:DEBUG:Conexion Exitosa: <connection object at 0x00000263173FD690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+08:07:12 AM:DEBUG [logger_base.py:15] Mensaje a nivel debug
+08:07:12 AM:INFO [logger_base.py:16] Mensaje a nivel info
+08:07:12 AM:WARNING [logger_base.py:17] Mensaje a nivel warning
+08:07:12 AM:ERROR [logger_base.py:18] Mensaje a nivel error
+08:07:12 AM:CRITICAL [logger_base.py:19] Mensaje a nivel critical
+2024-08-20 08:08:09:DEBUG:
+            Id Persona: 1;
+            Nombre: Juan,
+            Apellido: Perez,
+            Email: jperez@gmail.com
+        
+2024-08-20 08:08:09:DEBUG:
+            Id Persona: 2;
+            Nombre: Jose,
+            Apellido: Lopez,
+            Email: ljose@gmail.com
+        
+2024-08-20 08:09:44:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:09:44:DEBUG:Conexion Exitosa: <connection object at 0x000002887678D690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:10:31:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:10:31:DEBUG:Conexion Exitosa: <connection object at 0x000002BDD0BFD690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:10:31:DEBUG:Se abrió correctamente el cursor: <cursor object at 0x000002BDD0BF2B20; closed: 0>
+2024-08-20 08:11:13:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:11:14:DEBUG:Conexion Exitosa: <connection object at 0x0000022D85B3D690; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:11:14:DEBUG:Se abrió correctamente el cursor: <cursor object at 0x0000022D85B32B20; closed: 0>
+2024-08-20 08:42:30:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:42:30:DEBUG:Conexion Exitosa: <connection object at 0x000001F456E3F120; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:42:30:DEBUG:Se abrió correctamente el cursor: <cursor object at 0x000001F456EBB4C0; closed: 0>
+2024-08-20 08:43:30:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:43:30:DEBUG:Conexion Exitosa: <connection object at 0x000002076E8CF560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:43:30:DEBUG:Se abrió correctamente el cursor: <cursor object at 0x000002076E92F4C0; closed: 0>
+2024-08-20 08:48:52:DEBUG:Configuración de logging completada y comenzando a ejecutar.
+2024-08-20 08:48:52:DEBUG:Conexion Exitosa: <connection object at 0x000001C671F7F560; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2024-08-20 08:48:52:DEBUG:Se abrió correctamente el cursor: <cursor object at 0x000001C671FDF4C0; closed: 0>
